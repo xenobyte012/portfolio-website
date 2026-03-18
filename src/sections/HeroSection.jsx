@@ -18,7 +18,7 @@ return ( <section
      src={heroImage}
      alt="Website design hero"
      loading="lazy"
-     className="w-full h-700px] md:h-[700px] object-cover"
+     className="w-full h-500px] md:h-[500px] object-cover"
    />
 
 
