@@ -29,7 +29,7 @@ return (
     
     {/* Logo */}
     <div className="text-xl font-bold">
-      Xenobyte
+      Xenobyte Web Studio
     </div>
 
     {/* Burger Icon */}
