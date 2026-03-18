@@ -4,8 +4,8 @@ import { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import ContactPageSection from "../src/sections/ContactUs";
 
-
 const Barber = lazy(() => import("./barber-shop/barber-website"));
+
 function App() {
   return (
     <div className="w-full overflow-x-hidden h-screen">
@@ -13,7 +13,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/barber" element={<Barber />} />
       </Routes>
-      
     </div>
   );
 }
