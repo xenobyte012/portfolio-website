@@ -2,6 +2,7 @@
 import tutoring_img from '../images/tutoring-img.webp'
 import gown_img from '../images/gown-img.webp'
 import barber_img from '../images/barber-img.webp'
+import applience_img from '../images/hillcrest-appliance-repairs-jpg.webp'
 import { Navigate, useNavigate } from 'react-router-dom';
 
 function RecentProjects() {
@@ -38,21 +39,25 @@ function RecentProjects() {
             </div>
           </div>
         </a>
-
+<a
+          href="https://xenobyte012.github.io/appliance-repair-site/"
+          target="_blank"
+          rel="noopener nonferrer"
+        >
         <div className="w-65 shadow-2xl rounded-lg hover:bg-blue-600 focus:bg-gray-200 transition-colors duration-300">
           <div className=" ">
             <img
               loading="lazy"
-              src={gown_img}
+              src={applience_img}
               alt="project 2 "
               className="object-cover  rounded-t-lg  h-90 w-full"
             />
           </div>
           <div className="bg-background-1 text-center py-4 rounded-b-lg  text-xl font-semibold text-sub-heading-1 ">
-            Graduation Gowns
+            Applience Repair 
           </div>
         </div>
-        
+        </a>
         <div
           onClick={() => navigate('/barber')}
           className="w-65 shadow-2xl rounded-lg hover:bg-blue-600 focus:bg-gray-200 transition-colors duration-300">
