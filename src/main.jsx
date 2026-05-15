@@ -8,7 +8,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/portfolio-website">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>
