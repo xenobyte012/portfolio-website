@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://xenobyte012.github.io/portfolio-website",
+  "homepage": "https://xenobytewebstudio.co.za/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
