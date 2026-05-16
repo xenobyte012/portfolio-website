@@ -25,3 +25,15 @@ faint-text
 - text-gray-600
 - text-base
  leading-relaxed 
+
+Update the website✅
+--Home page 
+--Footer ✅
+--Header
+--Testemonials
+--Recent Project
+--Mission and Focuse
+--Our process
+--What makes our services diffrent
+--Packeges
+--Contact Us
